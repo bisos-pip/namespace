@@ -30,7 +30,7 @@ Installation
 
 ::
 
-    pip install bisos
+   pip install bisos
 
 See Also
 ========
