@@ -41,9 +41,7 @@ def longDescription():
 ####+END:
 
 # b:py3:pypi:setup/version Arguments  :forSys t :forPyPi t :constant "666"
-####+BEGIN: b:py3:pypi:setup/version :comment "Auto Detected" :constant "0.3"
-
-# ./pypiUploadVer DID NOT exist -- forPypiVersion=0.1 -- forSysVersion=0.1 -- constant=0.3
+####+BEGINNOT: b:py3:pypi:setup/version :comment "Auto Detected" :constant "0.3"
 def pkgVersion():
         return '0.3'
 
@@ -75,7 +73,7 @@ data_files = [
 ####+BEGIN: b:py3:pypi:setup/funcArgs :comment "defaults to --auto--" :pkgName "bisos"
 
 setuptools.setup(
-    name='bisos',  # bisos.namespace
+    name='bisos',  # bisos
     version=pkgVersion(),
     packages=setuptools.find_packages(),
     scripts=scripts,
